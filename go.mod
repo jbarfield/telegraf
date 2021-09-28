@@ -169,5 +169,8 @@ replace github.com/mdlayher/apcupsd => github.com/influxdata/apcupsd v0.0.0-2021
 // replace for SmartOS/illumos builds
 replace github.com/nats-io/nats-server/v2 v2.2.6 => github.com/jbarfield/nats-server/v2 v2.2.6-i
 
+// replace for SmartOS/illumos builds, bug in Open(c) function resolved and assigned to PR-4 with grid-x.
+replace github.com/grid-x/serial v0.0.0 => github.com/jbarfield/serial v0.0.0
+
 // replace for SmartOS/illumos builds
 replace github.com/influxdata/telegraf v1.19.2 => github.com/jbarfield/telegraf v1.19.2-id
