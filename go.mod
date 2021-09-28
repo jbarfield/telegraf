@@ -167,9 +167,7 @@ replace github.com/satori/go.uuid => github.com/gofrs/uuid v3.2.0+incompatible
 replace github.com/mdlayher/apcupsd => github.com/influxdata/apcupsd v0.0.0-20210427145308-694d5caead0e
 
 // replace for SmartOS/illumos builds
-replace github.com/nats-io/nats-server/v2 v2.1.2 => github.com/jbarfield/nats-server/v2 v2.2.6-id
-
-replace github.com/nats-io/nats-server/v2 v2.2.6 => github.com/jbarfield/nats-server/v2 v2.2.6-id
+replace github.com/nats-io/nats-server/v2 v2.2.6 => github.com/jbarfield/nats-server/v2 v2.2.6-i
 
 // replace for SmartOS/illumos builds
 replace github.com/influxdata/telegraf v1.19.2 => github.com/jbarfield/telegraf v1.19.2-id
